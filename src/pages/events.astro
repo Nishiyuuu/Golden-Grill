@@ -1,0 +1,52 @@
+---
+import Header from "./components/Header.astro";
+import Footer from "./components/Footer.astro";
+import "/src/styles/index.css";
+import "/src/styles/events.css";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Golden Grill</title>
+    <link rel="stylesheet" href="styles.css">
+    <base href="/Golden-Grill/" />
+    <link rel="icon" href="images/logo.jpg">
+</head>
+<body>
+    <Header />
+    <main>
+        <section class="events">
+            <h1>Upcoming Events</h1>
+            <div class="events-grid">
+                <div class="event-card">
+                    <img src="images/events/Live-Music-Night.jpg" alt="Live Music Night">
+                    <h3>Live Music Night</h3>
+                    <p>Join us for an evening of live music with local bands. Enjoy great food and great music!</p>
+                    <p>Date: July 20, 2024</p>
+                </div>
+                <div class="event-card">
+                    <img src="images/events/Wine-Tasting-Event.jpg" alt="Wine Tasting Event">
+                    <h3>Wine Tasting Event</h3>
+                    <p>Experience an exclusive wine tasting event with a selection of premium wines. Perfect for wine enthusiasts!</p>
+                    <p>Date: August 5, 2024</p>
+                </div>
+                <div class="event-card">
+                    <img src="images/events/Cooking-Workshop.jpg" alt="Cooking Workshop">
+                    <h3>Cooking Workshop</h3>
+                    <p>Learn to cook delicious dishes with our head chef. A fun and interactive workshop for all skill levels.</p>
+                    <p>Date: September 10, 2024</p>
+                </div>
+                <div class="event-card">
+                    <img src="images/events/Charity-Gala-Dinner.jpg" alt="Charity Gala Dinner">
+                    <h3>Charity Gala Dinner</h3>
+                    <p>Join us for a special gala dinner in support of local charities. Enjoy a gourmet meal and support a good cause.</p>
+                    <p>Date: October 15, 2024</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <Footer />
+</body>
+</html>
