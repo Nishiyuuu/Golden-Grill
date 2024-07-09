@@ -8,14 +8,19 @@ import "/src/styles/section-menu.css"
 	<head>
 		<meta charset="utf-8" />
 		<base href="/Golden-Grill/" />
-		<link rel="icon" href="images/logo.jpg"/>
+		<link rel="icon" href="/public/images/logo.jpg"/>
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Golden Grill</title>
 	</head>
 	<body>
 		<Header />
-		
+		<section id="hero">
+			<div class="HeroContent">
+				<h2>Golden Grill</h2>
+				<a href="/menu">Viev Menu</a>
+			</div>
+		</section>		
 		<Footer />
 	</body>
 </html>

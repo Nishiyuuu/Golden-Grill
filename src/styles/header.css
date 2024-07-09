@@ -1,0 +1,43 @@
+header{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+header .logo{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li{
+    margin: 0 1rem;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+header nav ul li a:hover{
+    color: #f00;
+    transition: 0.5s;
+}
