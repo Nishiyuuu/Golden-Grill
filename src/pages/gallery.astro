@@ -10,9 +10,26 @@ import "/src/styles/gallery.css"
 <head>
     <meta charset="utf-8" />
 	<base href="/Golden-Grill/" />
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="icon" href="images/logo.jpg">
 	<meta name="viewport" content="width=device-width" />
 	<meta name="generator" content={Astro.generator} />
     <title>Gallery - Golden Grill</title>    
 </head>
-<html />
+<body>    
+    <main>
+        <section class="gallery">
+            <h1>Our Gallery</h1>
+            <div class="gallery-grid">
+                <img src="images/gallery/Delicious-Dish.jpg" alt="Delicious Dish">
+                <img src="images/gallery/Restaurant-Interior.jpg" alt="Restaurant Interior">
+                <img src="images/gallery/Chefs-at-Work.jpg" alt="Chefs at Work">
+                <img src="images/gallery/Grilled-Food.jpg" alt="Grilled Food">
+                <img src="images/gallery/Barbecue.jpg" alt="Barbecue">
+                <img src="images/gallery/Restaurant-Event.jpg" alt="Restaurant Event">
+            </div>
+        </section>
+    </main>
+    
+    <Footer />
+</body>
+</html>
