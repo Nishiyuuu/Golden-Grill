@@ -1,0 +1,34 @@
+---
+import Header from "./components/Header.astro"
+import Footer from "./components/Footer.astro"
+import "/src/styles/index.css"
+import "/src/styles/gallery.css"
+---
+<Header />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Golden Grill</title>
+    <link rel="icon" href="images/logo.jpg">
+    <base href="/Golden-Grill/" />
+</head>
+<body>    
+    <main>
+        <section class="gallery">
+            <h1>Our Gallery</h1>
+            <div class="gallery-grid">
+                <img src="images/gallery/Delicious-Dish.jpg" alt="Delicious Dish">
+                <img src="images/gallery/Restaurant-Interior.jpg" alt="Restaurant Interior">
+                <img src="images/gallery/Chefs-at-Work.jpg" alt="Chefs at Work">
+                <img src="images/gallery/Grilled-Food.jpg" alt="Grilled Food">
+                <img src="images/gallery/Barbecue.jpg" alt="Barbecue">
+                <img src="images/gallery/Restaurant-Event.jpg" alt="Restaurant Event">
+            </div>
+        </section>
+    </main>
+    
+    <Footer />
+</body>
+</html>
