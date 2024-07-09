@@ -1,0 +1,64 @@
+---
+import Header from "./components/Header.astro";
+import Footer from "./components/Footer.astro";
+import "../styles/index.css";
+import "../styles/aboutus.css";
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="icon" href="images/logo.jpg">
+    <base href="/Golden-Grill/" />
+</head>
+<body>
+    <Header />
+    <main>
+        <section class="about">
+            
+            <h1>About Us</h1>
+            
+            <div class="about-section">
+                <h2>Our Story</h2>
+                <div class="about-content">
+                    <img src="images/about-us/our_story.jpg" alt="Our Story">
+                    <p>Our restaurant was founded with the mission to bring you the best grilling experience. From humble beginnings to becoming a local favorite, we pride ourselves on our passion for quality and service.</p>
+                </div>
+            </div>
+            
+            <div class="about-section">
+                <h2>Our Mission</h2>
+                <div class="about-content">
+                    <img src="images/about-us/our_mission.jpg" alt="Our Mission">
+                    <p>At Golden Grill, we strive to provide exceptional food and a warm, inviting atmosphere. Our goal is to make every visit a memorable one by offering delicious dishes prepared with the finest ingredients.</p>
+                </div>
+            </div>
+            
+            <div class="about-section">
+                <h2>Our Team</h2>
+                <div class="about-content">
+                    <div class="team-member">
+                        <img src="images/about-us/john_doe.jpg" alt="John Doe">
+                        <div class="team-info">
+                            <h3>John Doe</h3>
+                            <h4>Head Chef</h4>
+                            <p>John has over 20 years of experience in the culinary industry. His passion for grilling and creating unique flavors has made him a beloved figure at Golden Grill.</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/about-us/jane_smith.jpg" alt="Jane Smith">
+                        <div class="team-info">
+                            <h3>Jane Smith</h3>
+                            <h4>General Manager</h4>
+                            <p>Jane has been managing restaurants for over a decade. Her dedication to customer service and operational excellence ensures that every guest has a wonderful experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <Footer />
+</body>
+</html>
