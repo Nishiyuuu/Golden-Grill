@@ -1,16 +1,21 @@
 ---
-
+import Header from "./components/Header.astro"
+import Footer from "./components/Footer.astro"
+import "/src/styles/index.css"
+import "/src/styles/section-menu.css"
 ---
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<base href="/Golden-Grill/" />
-		<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+		<link rel="icon" href="/public/images/logo.jpg"/>
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Golden Grill</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Header />
+		
+		<Footer />
 	</body>
 </html>
