@@ -1,0 +1,60 @@
+.menu-section {
+    padding: 100px 50px 50px; /* Додатковий відступ зверху для компенсування фіксованого хедера */
+    background-color: #f8f8f8;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.menu-category {
+    margin-bottom: 40px;
+}
+
+.menu-category h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff6347;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.menu-item-details {
+    flex: 1;
+}
+
+.menu-item-details h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.menu-item-details p {
+    margin: 0 0 5px;
+    color: #666;
+}
+
+.menu-item-details .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6347;
+}

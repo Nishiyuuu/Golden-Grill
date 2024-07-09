@@ -1,0 +1,82 @@
+---
+import Header from "./components/Header.astro"
+import Footer from "./components/Footer.astro"
+import "/src/styles/menu1.css"
+import "/src/styles/index.css"
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" href="../../public/images/logo.jpg">
+    <base href="/Golden-Grill/" />
+</head>
+<body>
+    <Header />
+    <section id="menu" class="menu-section">
+        <h1 class="menu-title">Our Menu</h1>
+        <div class="menu-category">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <img src="../../public/images/menu/appetizers/appetizers1.jpg" alt="Appetizer 1">
+                <div class="menu-item-details">
+                    <h3>Grilled Shrimp Skewers</h3>
+                    <p>Delicious shrimp grilled to perfection with a touch of garlic and herbs.</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../../public/images/menu/appetizers/appetizers2.jpg" alt="Appetizer 2">
+                <div class="menu-item-details">
+                    <h3>Stuffed Mushrooms</h3>
+                    <p>Succulent mushrooms stuffed with cheese and herbs, baked to perfection.</p>
+                    <span class="price">$9.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <img src="../../public/images/menu/main-courses/maincourses1.jpg" alt="Main Course 1">
+                <div class="menu-item-details">
+                    <h3>Ribeye Steak</h3>
+                    <p>Juicy ribeye steak grilled to your liking, served with a side of vegetables.</p>
+                    <span class="price">$24.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../../public/images/menu/main-courses/maincourses2.jpg" alt="Main Course 2">
+                <div class="menu-item-details">
+                    <h3>Grilled Salmon</h3>
+                    <p>Fresh salmon fillet grilled to perfection, served with a lemon butter sauce.</p>
+                    <span class="price">$21.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <img src="../../public/images/menu/deserts/dessert1.jpg" alt="Dessert 1">
+                <div class="menu-item-details">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Rich and gooey chocolate cake with a molten center, served with vanilla ice cream.</p>
+                    <span class="price">$7.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="../../public/images/menu/deserts/dessert2.jpg" alt="Dessert 2">
+                <div class="menu-item-details">
+                    <h3>Cheesecake</h3>
+                    <p>Creamy cheesecake with a graham cracker crust, topped with fresh berries.</p>
+                    <span class="price">$6.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <Footer />
+</body>
+</html>
