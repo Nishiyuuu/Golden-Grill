@@ -1,0 +1,47 @@
+---
+import Header from "./components/Header.astro"
+import Footer from "./components/Footer.astro"
+import "/src/styles/index.css"
+import "/src/styles/blog1.css"
+---
+
+<Header />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	<base href="/Golden-Grill/" />
+	<link rel="icon" href="images/logo.jpg">
+	<meta name="viewport" content="width=device-width" />
+	<meta name="generator" content={Astro.generator} />
+    <title>Blog - Golden Grill</title>    
+</head>
+<body>    
+    <main>
+        <section class="blog">
+            <h1>Our Blog</h1>
+        
+            <article class="blog-post">
+                <div class="blog-post-header">
+                    <img src="images/blog/post1.jpg" alt="Blog Post 4">
+                    <div class="blog-post-title">
+                        <h2>Exploring New Flavors: A Culinary Adventure</h2>
+                        <p>Posted on July 10, 2024</p>
+                    </div>
+                </div>
+                <div class="blog-post-content">
+                    <p>Today, we embarked on a culinary journey to discover new flavors and dishes that excite the palate. Our first stop was a quaint little bistro tucked away in the heart of the city.</p>
+                    <p>We started with their signature dish, a delicate Crab Ravioli served with a creamy saffron sauce. The flavors danced on our tongues, blending seafood sweetness with the richness of saffron.</p>
+                    <p>Next, we sampled their Braised Lamb Shank, slow-cooked to perfection and paired with a velvety red wine reduction. Each bite was a symphony of tender meat and deep, complex flavors.</p>
+                    <p>For dessert, we indulged in a decadent Chocolate Hazelnut Tart, its crisp pastry shell filled with smooth hazelnut ganache and topped with toasted hazelnuts.</p>
+                    <p>This culinary adventure reminded us that food is not just sustenance; it is an experience that connects us to cultures and traditions. We left with a newfound appreciation for the artistry and passion behind every dish.</p>
+                </div>
+            </article>
+            
+        
+        </section>
+        
+    </main>
+    <Footer />
+</body>
+</html>
