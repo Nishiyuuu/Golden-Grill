@@ -1,3 +1,4 @@
+/* Основний стиль */
 main {
     padding: 100px 50px 50px;
 }
@@ -68,4 +69,33 @@ main {
     font-size: 16px;
     color: #666;
     margin: 0;
+}
+
+/* Стиль для мобільних пристроїв */
+@media (max-width: 768px) {
+    main {
+        padding: 70px 20px 20px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        margin: 0 0 20px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .team-member {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-member img {
+        margin: 0 0 20px 0;
+        width: 150px;
+        height: auto;
+    }
 }
