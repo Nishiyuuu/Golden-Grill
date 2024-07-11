@@ -4,13 +4,13 @@
 }
 
 .contact h1 {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .contact-info {
     text-align: left;
     max-width: 600px;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
 }
 
 .contact-info p {
@@ -42,11 +42,13 @@
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    align-self: center;
+
 }
 
 .contact-form button {
@@ -61,4 +63,23 @@
 
 .contact-form button:hover {
     background-color: #c0392b;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 600px) {
+    .contact {
+        padding: 20px 10px;
+    }
+
+    .contact-info {
+        margin: 0 auto 20px;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    .contact-form h2 {
+        font-size: 20px;
+    }
 }
